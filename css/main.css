@@ -6,73 +6,6 @@
     
 }
 
-.low {
-
-    background-color: #FF0000;
-    font-size: 50px;
-    font-family: "Arial";
-    color: #ffffff;
-    width: 80px ;
-    height: 100px;
-    
-}
-
-.medium {
-
-    background-color: #FFCC00;
-    color: #ffffff;
-    font-size: 50px;
-    font-family: "Arial";
-    color: #ffffff;
-    width: 80px ;
-    height: 100px;
-    
-    
-}
-
-.high {
-
-    background-color: #00FF00;
-    color: #ffffff;
-    font-size: 50px;
-    font-family: "Arial";
-    color: #ffffff;
-    width: 80px ;
-    height: 100px;
-        
-}
-
-.container {
-
-    width: 50%;
-    height: 100px;
-    background-color: #F7F7F7;
-    
-}
-
-.graph {
-
-    width: 50%;
-    height: 50%;
-    position: fixed;
-    right: 0px;
-    top: 175px;
-    background-color: #cccccc;
-    
-
-}
-
-.bars {
-
-    background-color: #000000;
-    width: 50px;
-    position: absolute;
-    bottom: 0px;
-    animation: grow 2s;
-    animation-fill-mode: forwards;
-    
-}
-
 h1 {
 
     color: #000000;
@@ -84,12 +17,5 @@ img {
     
     height: 150px;
     width: 300px;
-    
-}
-
-@keyframes grow {
-    
-    from {height: 0px;}
-    to {height:100px;}
     
 }
