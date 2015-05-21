@@ -23,6 +23,7 @@
     
 }
 
+<<<<<<< HEAD
 .circle-img {
 
   border-radius:50%;
@@ -33,6 +34,8 @@
 
 }
 
+=======
+>>>>>>> d589be11a5bad2f233a56d88898be7acc4e15a73
 .circle-low {
 
   border-radius:50%;
@@ -84,6 +87,7 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+<<<<<<< HEAD
 
 .bgcolor {
 
@@ -93,6 +97,10 @@ html {
 
 body {
     margin: 0;
+=======
+body {
+  margin: 0;
+>>>>>>> d589be11a5bad2f233a56d88898be7acc4e15a73
 }
 article,
 aside,
@@ -1684,7 +1692,10 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+<<<<<<< HEAD
   color:#ffffff;
+=======
+>>>>>>> d589be11a5bad2f233a56d88898be7acc4e15a73
   background-color: #290029;
 }
 .row {
