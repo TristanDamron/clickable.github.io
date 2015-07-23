@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8">
+<packages>
+  <package>
+    <name>lynx2-8-8</name>
+    <size>13.8</size>
+    <url>ftp://lynx.isc.org/lynx2.8.8/lynx2-8-8.tar.gz</url>
+    <file-name>lynx2-8-8.tar.gz</file-name>
+  </package>
+
+  <package> 
+    <name>gimp-2.8.0-RC1</name>
+    <size>137.7</size>
+    <url>https://gimper.net/downloads/pub/gimp/stable/gimp-2.8.0-RC1.tar.bz2</url>
+    <file-name>gimp-2.8.0-RC1.tar.bz2</file-name>
+  </package>
+
+  <package>
+    <name>libreoffice-4.4.4.5</name>
+    <size>157.0</size>
+    <url>http://donate.libreoffice.org/home/dl/src/4.4.4/all/libreoffice-4.4.4.3.tar.xz?idx=1</url>
+    <file-name>libreoffice-4.4.4.3.tar.xz</file-name>
+  </package>
+
+  <package>
+    <name>audacity-minsrc-2.1.1</name>
+    <size>73.3</size>
+    <url>http://www.fosshub.com/Audacity.html/audacity-minsrc-2.1.1.tar.xz</url>
+    <file-name>audacity-minsrc-2.1.1.tar.xz</file-name>
+  </packages>
+  <package>
+    <name>pitivi-0.94</name>
+    <size>10.4</size>
+    <url>https://download.gnome.org/sources/pitivi/0.94/pitivi-0.94.tar.xz<url>
+    <file-name>pitivi-0.94.tar.xz</file-name>
+  </package>
+
+  <package>
+    <name>vlc-2.2.0</name>
+    <size>176.2</size>
+    <url>http://get.videolan.org/vlc/2.2.0/vlc-2.2.0.tar.xz</url>
+    <file-name>vlc-2.2.0.tar.xz</file-name>
+  </package>
+
+  <package>
+    <name>skype-4.3.0.37</name>
+    <size>44.9</size>
+    <url>http://www.skype.com/en/download-skype/skype-for-linux/downloading/?type=dynamic</url>
+    <file-name>skype-4.3.0.37.tar.bz</file-name>
+  </package>
+</packages>
+
+</xml>
