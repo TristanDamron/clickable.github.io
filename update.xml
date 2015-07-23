@@ -26,7 +26,7 @@
     <size>73.3</size>
     <url>http://www.fosshub.com/Audacity.html/audacity-minsrc-2.1.1.tar.xz</url>
     <file-name>audacity-minsrc-2.1.1.tar.xz</file-name>
-  </packages>
+  </package>
   <package>
     <name>pitivi-0.94</name>
     <size>10.4</size>
