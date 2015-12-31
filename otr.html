@@ -4,5 +4,28 @@
     <p><a href="index.html"> <-- take me back scottie!!</a></p>
       <h1>Open Technology Radio</h1>
       <p>Open Technology Radio (OTR) is an open source online radio station. This project was started to experiment with PiFm, a piece of software that allows users to broadcast a low powered radio signal from a Raspberry Pi's GPIO. However, the project turned into a type of online radio station where users could upload their own radio shows to be broadcasted through the website. OTR is not currently hosted on this website, though you are free to download the source code from <a href="http://www.github.com/TristanDamron/OTR">GitHub</a> and launch your own OTR! Happy broadcasting!</p>
+      <h2>INSTALLATION:</h2>
+
+    <p>OTR is a Django application, and thus only works with Django projects. Starting your own OTR project requires python-2.7 or higher and Django-1.8 or higher. Once you have these dependencies met, open a terminal and enter:
+    </br>
+    cd projectparentdir && django-admin startproject otrproject
+    </br>
+    These commands will create a new Django project called "otrproject" in the project's parent directory. Once you've created the project, simply drag the original OTR folder into the "otrproject" folder. Then, open the settings.py file located in your project's "otrproject" folder. In the list called "INSTALLED_APPS", add the following line:
+    </br>
+    'otr',
+    </br>
+    This will add the OTR app to your project. Now, migrate the database. You can do this by running these commands inside the "otrproject" directory:
+    </br>
+    python manage.py makemigrations otr && python manage.py migrate
+    </br>
+    Finally, you must include the proper urls to the 'urls.py' file in the 'otrproject' folder. In the list called 'urlpatterns' add this line:
+    </br>
+    url(r'^', include('otr.urls')),
+    </br>
+    Congratulations! You're ready to run OTR! You can now add shows and other media through the Django admin panel, which is accessible by starting a local server:
+    </br>
+    python manage.py runserver
+    </br>
+    If you need assistance, check out the freenode IRC #otr or review Django's documentation.</p>
   </body>
 </html>
