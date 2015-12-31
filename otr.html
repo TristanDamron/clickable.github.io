@@ -8,23 +8,23 @@
 
     <p>OTR is a Django application, and thus only works with Django projects. Starting your own OTR project requires python-2.7 or higher and Django-1.8 or higher. Once you have these dependencies met, open a terminal and enter:
     </br>
-    cd projectparentdir && django-admin startproject otrproject
+    <i>cd projectparentdir && django-admin startproject otrproject</i>
     </br>
     These commands will create a new Django project called "otrproject" in the project's parent directory. Once you've created the project, simply drag the original OTR folder into the "otrproject" folder. Then, open the settings.py file located in your project's "otrproject" folder. In the list called "INSTALLED_APPS", add the following line:
     </br>
-    'otr',
+    <i>'otr',</i>
     </br>
     This will add the OTR app to your project. Now, migrate the database. You can do this by running these commands inside the "otrproject" directory:
     </br>
-    python manage.py makemigrations otr && python manage.py migrate
+    <i>python manage.py makemigrations otr && python manage.py migrate</i>
     </br>
     Finally, you must include the proper urls to the 'urls.py' file in the 'otrproject' folder. In the list called 'urlpatterns' add this line:
     </br>
-    url(r'^', include('otr.urls')),
+    <i>url(r'^', include('otr.urls')),</i>
     </br>
     Congratulations! You're ready to run OTR! You can now add shows and other media through the Django admin panel, which is accessible by starting a local server:
     </br>
-    python manage.py runserver
+    <i>python manage.py runserver</i>
     </br>
     If you need assistance, check out the freenode IRC #otr or review Django's documentation.</p>
   </body>
